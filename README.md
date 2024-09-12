@@ -25,7 +25,9 @@ Two main components for implementing RAG is retriver and generator. In this proj
 
 # Application Overview
 
-Following azure services have been used to build this application. pfb..screenshot of the resource group. Gradio+FastAPI+python is used to design the chat application.
+Following azure services have been used to build this application. pfb..screenshot of the resource group. 
+
+![screenshot](resourcegroup.png)!
 
  * AppService
  * Azure AI Search(used as Retriever)
@@ -33,5 +35,5 @@ Following azure services have been used to build this application. pfb..screensh
  * Azure Container Registry(Host docker images)
  * Azure Blob Storage(Data Source to upload files)
 
+ * Gradio+FastAPI+python is used to design the chat application.
 
-![screenshot](resourcegroup.png)!
