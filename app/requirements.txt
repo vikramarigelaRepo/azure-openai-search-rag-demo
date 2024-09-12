@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+gunicorn
+jinja2
+python-multipart
+gradio
+python-dotenv
+azure-search-documents==11.6.0b4
+azure-storage-blob
+azure-identity
+openai
+pandas
