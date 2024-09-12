@@ -10,20 +10,28 @@ Two main components for implementing RAG is retriver and generator. In this proj
 
 # Architecture diagram
 
-![screenshot](image.png)
+![screenshot](archdiagram.png)!
 
- *App UX (web app) for the user experience
- *App server or orchestrator (integration and coordination layer)
- *Azure AI Search (information retrieval system)
- *Azure OpenAI (LLM for generative AI)
+ * App UX (web app) for the user experience
+ * App server or orchestrator (integration and coordination layer)
+ * Azure AI Search (information retrieval system)
+ * Azure OpenAI (LLM for generative AI)
 
-# Data Ingestion
-
-
-
-# app
+# Data Ingestion Overview
 
 
 
 
 
+# Application Overview
+
+Following azure services have been used to build this application. pfb..screenshot of the resource group. Gradio+FastAPI+python is used to design the chat application.
+
+ * AppService
+ * Azure AI Search(used as Retriever)
+ * Azure Open AI Service(Generative AI)
+ * Azure Container Registry(Host docker images)
+ * Azure Blob Storage(Data Source to upload files)
+
+
+![screenshot](resourcegroup.png)!
