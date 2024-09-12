@@ -4,7 +4,7 @@ This Repo contains code to implement rag using azure open ai and azure ai search
 # Project Overview
 Employee Assistant is an Chat bot built using Azure open ai, Azure Search and python where employees can find answers to their questions regarding healthcare plans and company policies for a fictitious company called contoso.
 
-[screenshot](application.png)!
+![screenshot](application.png)!
 
 
 # About RAG
@@ -13,7 +13,7 @@ Two main components for implementing RAG is retriver and generator. In this proj
 
 # Architecture diagram
 
-[screenshot](archdiagram.png)!
+![screenshot](archdiagram.png)!
 
  * App UX (web app) for the user experience
  * App server or orchestrator (integration and coordination layer)
@@ -55,7 +55,7 @@ Following azure services have been used to build this application. pfb..screensh
 
 Code for the application is under "app" folder. main.py contains code for implementing this application
 
-[screenshot](resourcegroup.png)!
+![screenshot](resourcegroup.png)!
 
  * AppService
  * Azure AI Search(used as Retriever)
