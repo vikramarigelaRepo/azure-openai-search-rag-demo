@@ -40,6 +40,16 @@ Following azure services have been used to build this application. pfb..screensh
 
  * Gradio+FastAPI+python is used to design UI for the chat application.
 
- * Key less authentication has been used for all services in this project. RBAC has been implemented for improved security.
+ * Key less authentication has been used for all services in this project. Azure AD Auth has been implemented for improved security for services to communicate with each other.
 
- * 
+ * Following Roles have been used
+ 
+   * For Azure App Service to connect with Azure Open AI Service
+     * Role : Azure AI Developer
+
+   * For Azure App Service to connect with Azure AI Search Service
+     * Role: Search Service Contributor
+
+   * For Azure Open AI Service to connect with Azure AI Search Service
+     * Role: Search Index Data Reader
+     * Role: Search Service Contributor
