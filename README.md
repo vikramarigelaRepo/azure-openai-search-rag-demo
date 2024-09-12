@@ -5,7 +5,7 @@ This Repo contains code to implement rag using azure open ai and azure ai search
 
 
 # About RAG
-Retrieval Augmented Generation is a pattern used to ground the large language model using our own organization/domain data and respond to the users questions based on that context/data.
+Retrieval Augmented Generation (RAG) is an architecture that augments the capabilities of a Large Language Model (LLM) like ChatGPT by adding an information retrieval system that provides grounding data.
 Two main components for implementing RAG is retriver and generator. In this project Azure AI Search Service is used as retriever and Azure Open AI Service as generator.
 
 # Architecture diagram
