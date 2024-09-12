@@ -12,6 +12,10 @@ Two main components for implementing RAG is retriver and generator. In this proj
 
 ![screenshot](image.png)
 
+ App UX (web app) for the user experience
+ App server or orchestrator (integration and coordination layer)
+ Azure AI Search (information retrieval system)
+ Azure OpenAI (LLM for generative AI)
 
 # Data Ingestion
 
