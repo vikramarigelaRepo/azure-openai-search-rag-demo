@@ -44,6 +44,8 @@ Following azure services have been used to build this application. pfb..screensh
 
  * Following Roles have been used
  
+   * Note: Enable System Assigned managed identity for all the services
+
    * For Azure App Service to connect with Azure Open AI Service
      * Role : Azure AI Developer
 
