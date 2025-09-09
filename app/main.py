@@ -28,6 +28,7 @@ def chatCompletion(user_input):
     azure_oai_endpoint = os.getenv("AZURE_OPENAI_ENDPOINT")
     azure_search_endpoint = os.getenv("AZURE_SEARCH_ENDPOINT")
     azure_search_index = os.getenv("AZURE_SEARCH_INDEX")
+    azure_openai_key = "1V3m72au8queBVbXNZmjcAhAHqccKcnBsTue7Ubky__TMP"
 
     token_provider = get_bearer_token_provider(
         DefaultAzureCredential(), "https://cognitiveservices.azure.com/.default"
